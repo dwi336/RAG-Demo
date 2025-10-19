@@ -29,6 +29,7 @@ db = Chroma.from_documents(chunks, embeddings, persist_directory=CHROMA_PATH)
 # Finden von relevanten Informationen und Generierung ***
 # Frage des Nutzers
 query = "Welche Anforderungen stellt die Bundesregierung an Trusted Computing?"
+print("Frage:", query)
 
 # Finden von Informationen (5 relevanteste Chunks bzgl. der Frage)
 docs_chroma = db.similarity_search_with_score(query, k=5)
