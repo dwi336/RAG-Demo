@@ -24,8 +24,7 @@ Retrieval-Augmented Generation Demonstration
    ```
 4. `.env`-Datei für Umgebungsvariable für OpenAI API Key erstellen
    ```
-   vi .env
-   > OPENAI_API_KEY=dein-openai-api-key
+   OPENAI_API_KEY=dein-openai-api-key
    ```
 # Nutzung
    ```
