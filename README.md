@@ -3,6 +3,8 @@ Retrieval-Augmented Generation Demonstration
 
 # Voraussetzungen
 - Python 3.8+
+- Python `venv`-Modul
+- `git`-Installation
 - OpenAI API key (<https://openai.com/index/openai-api/>)
 
 # Installation (Ubuntu)
